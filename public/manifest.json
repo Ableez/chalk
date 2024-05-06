@@ -1,63 +1,104 @@
 {
-  "name": "Chalk",
-  "short_name": "Chalk",
-  "theme_color": "#0A84FF",
-  "background_color": "#FAFAFC",
+  "protocol_handlers": [
+    { "protocol": "mailto", "url": "/newEmail?to=%s" },
+    {
+      "protocol": "web+music",
+      "url": "/play?track=%s"
+    }
+  ],
+  "description": "A social media app without the noise",
+  "screenshots": [
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "purp Home Screen"
+    },
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen2.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "purp Report Card"
+    },
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "Manifest information on the Report Card"
+    }
+  ],
+  "name": "purp",
+  "short_name": "purp",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
+  "display_override": ["window-controls-overlay"],
   "scope": "/",
   "start_url": "/",
+  "categories": ["social"],
+  "shortcuts": [
+    {
+      "name": "Direct message",
+      "short_name": "DM",
+      "description": "Send a message to a user",
+      "url": "/messages",
+      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "lang": "en-us",
+  "id": "purpid_1221",
   "icons": [
     {
-      "src": "icons/chalk48.png",
+      "src": "icons/png/c48.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk72.png",
+      "src": "icons/png/c72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk96.png",
+      "src": "icons/png/c96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk128.png",
+      "src": "icons/png/c128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk144.png",
+      "src": "icons/png/c144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk152.png",
+      "src": "icons/png/c152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk192.png",
+      "src": "icons/png/c192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk384.png",
+      "src": "icons/png/c384.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "icons/chalk512.png",
+      "src": "icons/png/c512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
